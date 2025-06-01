@@ -176,13 +176,13 @@ body {
 }
 
 .left-side{
-    width: 45px;
+    width: 24px;
     height: 360px;
     background-color: rgba(213, 207, 207, 0.617);
 }
 
 .right-side{
-    width: 45px;
+    width: 24px;
     height: 360px;
     background-color: rgba(213, 207, 207, 0.617);
 }
@@ -204,7 +204,7 @@ body {
 .items{
     display: flex;
     height: 100%;
-    width: 1253px;
+    width: 1418px;
     display: flex;
     gap: 50px;
     overflow-x: auto;
