@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
+}
+
+#plus {
+    color: #ffe500;
+    font-size: 11px;
+}
+
+
+.nav-container{
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    width: 80px;
+    display: inline;
+    margin: 2px 0px 2px 170px;
+}
+
+.flogo{
+    width: 75px;
+    height: 20.11px;
+    margin-top: 15px;
+}
+
+.logo-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    height: 15.4px;
+    width: 75px;
+    margin-bottom: 15px;
+}
+
+.search-bar{
+    width: 340px;
+    display: flex;
+}
+
+.search-box {
+    height: 36px;
+    width: 564px;
+    border-radius: 2px;
+    padding: 0 16px;
+    outline: 0 none;
+    border: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.search-button {
+    height: 36px;
+    width: 44px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    outline: 0 none;
+    padding: 4px 12px 2px 8px;
+    background-color: #fff;
+    color: #2874f0;
+
+}
+
+.login {
+    margin-right: 10px;
+}
+
+.login-button {
+    color: #2874f0;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+
+.seller {
+    width: 155px;
+    margin-right: 10px;
+}
+
+.more {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.cart {
+    width: 65px;
+    margin-right: 150px;
+}
+
+.belownav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.icons{
+    width: 94px;
+    height: 112px;
+    padding: 10px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.label svg {
+  vertical-align: middle;
+}
+
+.menu-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+.line {
+    width: 100%;
+    border: none;
+    height: 12px;
+    background-color: rgba(213, 207, 207, 0.617);
+}
+
+.banner{
+    height: 280px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgba(213, 207, 207, 0.617);
+
+}
+
+.flipkart-banner{
+    height: 280px;
+    width: 1489px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.items-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 360px;
+}
+
+.left-side{
+    width: 45px;
+    height: 360px;
+    background-color: rgba(213, 207, 207, 0.617);
+}
+
+.right-side{
+    width: 45px;
+    height: 360px;
+    background-color: rgba(213, 207, 207, 0.617);
+}
+
+
+.items-listed{
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    font-size: 23px;
+    font-weight:500 ;
+}
+
+.items{
+    display: flex;
+    height: 100%;
+    width: 1253px;
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+    
+}
+
+.items-head{
+    text-align: center;
+}
+
+.items-price{
+    text-align: center;
+    font-weight: 500;
+}
+
+.icon{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.items-ad{
+    height: 360px;
+}
+
+.ad{
+    height: 360px;
+    width: 235px;
+}
+
+.bottom-banner{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgba(213, 207, 207, 0.617);
+}
+
+.bottom-img{
+    width: 490px;
+    height: 260px;
+}
+
+.footerSection {
+    max-width: 1719px;
+    height: 300px;
+    background-color: #172337;
+    display: flex;
+}
+
+.footerLeft {
+    display: flex;
+    width: 50%;
+    margin-left: 65px;
+    justify-content: space-evenly;
+}
+
+.footerInfo {
+    width: 252px;
+    height: 194px;
+    padding-top: 40px;
+}
+
+.footerContent {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.footerInfoHeading {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.footerRight {
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+    justify-content: space-evenly;
+}
+
+.footerExtras {
+    margin-top: 0.35px;
+    background-color: #172337;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1719px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 25px;
+    padding-right: 10px;
+}
